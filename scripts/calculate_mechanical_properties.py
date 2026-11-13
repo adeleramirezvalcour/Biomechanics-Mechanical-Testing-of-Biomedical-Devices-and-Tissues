@@ -14,11 +14,11 @@ FIGURES_DIR.mkdir(exist_ok=True)
 RESULTS_DIR.mkdir(exist_ok=True)
 
 dimensions = {
-    2: (19.14, 20.29, 19.17),
-    3: (18.80, 19.19, 19.72),
-    4: (19.17, 19.19, 19.13),
-    5: (19.10, 19.17, 20.45),
-    6: (19.89, 19.12, 17.56),
+    2: (20.26, 20.25, 19.22),
+    3: (19.14, 20.29, 19.17),
+    4: (18.80, 19.19, 19.72),
+    5: (19.17, 19.19, 19.13),
+    6: (19.17, 19.25, 18.01),
 }
 
 STRAIN_MIN = 0.01
@@ -210,7 +210,7 @@ for plot_index, (trial, dims) in enumerate(dimensions.items()):
 axes[-1].axis("off")
 
 fig.suptitle(
-    "Preliminary 0.2% Offset Yield Analysis",
+    "0.2% Offset Yield Analysis",
     fontsize=16,
 )
 

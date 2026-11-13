@@ -10,11 +10,11 @@ FIGURES_DIR.mkdir(exist_ok=True)
 
 # Had to replace instron output dimensions with actual dimensions
 specimens = {
-    2: {"height": 19.14, "area": 388.96},
-    3: {"height": 18.80, "area": 378.43},
-    4: {"height": 19.17, "area": 367.10},
-    5: {"height": 19.10, "area": 392.03},
-    6: {"height": 19.89, "area": 335.75},
+    2: {"height": 20.26, "area": 20.25 * 19.22},
+    3: {"height": 19.14, "area": 20.29 * 19.17},
+    4: {"height": 18.80, "area": 19.19 * 19.72},
+    5: {"height": 19.17, "area": 19.19 * 19.13},
+    6: {"height": 19.17, "area": 19.25 * 18.01},
 }
 
 plt.figure(figsize=(9, 6))
